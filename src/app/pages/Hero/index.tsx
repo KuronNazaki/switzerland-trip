@@ -111,7 +111,7 @@ export const Hero = () => {
       </Display>
     </div>
   ) : (
-    <div className="w-fit py-20 px-32 flex flex-col gap-2 bg-gradient-round">
+    <div className="w-fit md:py-20 md:px-32 flex flex-col gap-2 bg-gradient-round">
       <div className="w-full px-10 flex justify-between gap-2">
         <div className="mb-4 cursor-default">
           <div className="relative font-mono font-bold uppercase">
@@ -126,7 +126,7 @@ export const Hero = () => {
               {maskedDepartureNation}
             </div>
             <div
-              className={`${hoverState.departureNation && hoverState.departureCity ? 'opacity-0 invisible' : 'opacity-100 visible'} text-neutral-400 absolute -left-full -translate-x-2 -top-2`}
+              className={`${hoverState.departureNation && hoverState.departureCity ? 'opacity-0 invisible' : 'invisible opacity-0 md:opacity-100 md:visible'} text-neutral-400 absolute -left-full -translate-x-2 -top-2`}
             >
               <PointingArrowSvg className="w-20 h-auto" />
               <p className="font-sans absolute bottom-0 left-0 text-[0.25rem] -translate-x-[80%] -translate-y-1/3 font-black">
@@ -148,7 +148,7 @@ export const Hero = () => {
         <div
           className={`${hoverState.departureNation && hoverState.departureCity ? 'opacity-100 visible' : 'opacity-0 invisible'} h-full relative grow`}
         >
-          <HeroArrowSvg className="w-[15rem] h-[15rem] text-neutral-400 absolute rotate-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-[55%] -scale-y-100" />
+          <HeroArrowSvg className="invisible opacity-0 md:visible md:opacity-100 md:w-[15rem] md:h-[15rem] text-neutral-400 absolute rotate-45 top-1/2 left-1/2 -translate-x-1/2 -translate-y-[55%] -scale-y-100" />
         </div>
         <div className="mb-4 cursor-default shrink-0 grow-0">
           <div
@@ -167,8 +167,8 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="w-[600px] grid grid-cols-4 gap-2">
-        <div className="flex flex-col items-center gap-1 ">
+      <div className="w-[350px] md:w-[600px] grid grid-cols-2 md:grid-cols-4 gap-y-10 md:gap-2">
+        <div className="flex flex-col items-center gap-1">
           <span className="font-serif leading-[0.75] text-9xl">
             {formatLeadingZero(Math.floor(duration.asDays()))}
           </span>
