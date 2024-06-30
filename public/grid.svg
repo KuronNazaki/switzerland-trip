@@ -1,0 +1,20 @@
+<svg width="82" height="82" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<path d="M1 1V81" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M21 1V81" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M41 1V81" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M61 1V81" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M81 1V81" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M81 81L0.999996 81" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M81 61L0.999996 61" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M81 41L0.999996 41" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M81 21L0.999996 21" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M81 1L0.999996 0.999997" stroke="#007AFF" stroke-opacity="0.3" stroke-width="0.4" />
+	<path d="M1 76V81" stroke="#007AFF" stroke-opacity="0.3" />
+	<path d="M81 76V81" stroke="#007AFF" stroke-opacity="0.3" />
+	<path d="M81 1L81 6" stroke="#007AFF" stroke-opacity="0.3" />
+	<path d="M1 1L1 6" stroke="#007AFF" stroke-opacity="0.3" />
+	<path d="M6 81L1 81" stroke="#007AFF" stroke-opacity="0.3" />
+	<path d="M81 81H76" stroke="#007AFF" stroke-opacity="0.3" />
+	<path d="M81 1L76 1" stroke="#007AFF" stroke-opacity="0.3" />
+	<path d="M6 1L1 1" stroke="#007AFF" stroke-opacity="0.3" />
+</svg>
